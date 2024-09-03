@@ -8,3 +8,10 @@ else if(number = 0) {
 else{
     console.log("The number is less than 6")
 }
+
+/*----------- Ternary Operator ---------*/
+// used for simple True or False type statements. 
+// Can be used instead of if-else.
+
+const anotherNo = 4
+console.log((anotherNo > 5) ? "This no. is greater than 5" : "This no. is less than 5")
