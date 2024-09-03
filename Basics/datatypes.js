@@ -16,3 +16,8 @@ person.isAlive = false
 
 console.log(person)
 // this is simply anything that could be defined
+
+let id = Symbol("id")
+console.log(id)
+
+console.log(typeof(Symbol))
