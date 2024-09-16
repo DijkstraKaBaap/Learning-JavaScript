@@ -17,6 +17,6 @@ console.log(car["make"]);
 // functions inside the objects are called methods
 var x = car;            // x IS car.
 x.drive();
-x.badgeToPrint();
+console.log(x.badgeToPrint());
 
 // object properties
